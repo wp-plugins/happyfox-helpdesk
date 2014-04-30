@@ -6,7 +6,7 @@ Requires at least: 2.9.2
 Tested up to: 3.9
 Stable tag: 1.0.0
 
-HappyFox plugin for WordPress offers a simple & perfect solution for delivering great customer support from WordPress website, using your favorite helpdesk application.
+HappyFox plugin for WordPress offers a simple solution for delivering great customer support directly from your Wordpress admin dashboard.
 
 == Description ==
 HappyFox Helpdesk is a leading market solution offering customer support tools for businesses of different sizes and nature.
@@ -53,6 +53,7 @@ You can find that under Manage —> Integrations —> Embed Forms, in your Happy
 1. Some of the features available in the HappyFox settings page
 2. Convert a comment into a HappyTicket easily
 3. 'Create a HappyFox Ticket' interface
+4. The HappyFox tickets widget in your admin area
 
 == Upgrade Notice ==
 
