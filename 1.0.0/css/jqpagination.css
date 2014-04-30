@@ -1,0 +1,103 @@
+/*
+ * HappyFox for WordPress
+ *
+ * @subpackage Tickets Widget Pagination Stylesheet
+ * @author Balu Vaithinathan
+ * @version 1.0.0
+ *
+ * http://happyfox.com
+ *
+ */
+
+.happyfox-tickets-pagination {
+	margin: 1em auto;
+	position: relative;
+	width: 190px;
+	float: right;
+	display: block;
+}
+
+.happyfox-tickets-pagination a {
+	display: block;
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #E4E4E4;
+	color: #555;
+	text-align: center;
+	font-family: Times, 'Times New Roman', Georgia, serif;
+	font-weight: bold;
+	font-size: 1em;
+	outline: none;
+	vertical-align: middle;
+	
+	background: -moz-linear-gradient(top,  #F3F3F3 0%, #D3D3D3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3F3F3), color-stop(100%,#D3D3D3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #F3F3F3 0%,#D3D3D3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #F3F3F3 0%,#D3D3D3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #F3F3F3 0%,#D3D3D3 100%); /* IE10+ */
+	background: linear-gradient(top,  #F3F3F3 0%,#D3D3D3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F3F3F3', endColorstr='#D3D3D3',GradientType=0 ); /* IE6-9 */
+}
+
+.happyfox-tickets-pagination a:hover {
+	background: #CECECE; /* Old browsers */
+	background: -moz-linear-gradient(top,  #E4E4E4 0%, #CECECE 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E4E4E4), color-stop(100%,#CECECE)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #E4E4E4 0%,#CECECE 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #E4E4E4 0%,#CECECE 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #E4E4E4 0%,#CECECE 100%); /* IE10+ */
+	background: linear-gradient(top,  #E4E4E4 0%,#CECECE 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E4E4E4', endColorstr='#CECECE',GradientType=0 ); /* IE6-9 */
+}
+
+.happyfox-tickets-pagination a.disabled, .happyfox-tickets-pagination a.disabled:hover, .happyfox-tickets-pagination a.disabled:focus, .happyfox-tickets-pagination a.disabled:active {
+	background: #F3F3F3; /* Old browsers */
+	background: -moz-linear-gradient(top,  #F3F3F3 0%, #D3D3D3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3F3F3), color-stop(100%,#D3D3D3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #F3F3F3 0%,#D3D3D3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #F3F3F3 0%,#D3D3D3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #F3F3F3 0%,#D3D3D3 100%); /* IE10+ */
+	background: linear-gradient(top,  #F3F3F3 0%,#D3D3D3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F3F3F3', endColorstr='#D3D3D3',GradientType=0 ); /* IE6-9 */
+
+	color: #A8A8A8;
+}
+
+.happyfox-tickets-pagination a:first-child {
+	border-radius: 2px 0 0 2px;
+	-moz-border-radius: 2px 0 0 2px;
+	-webkit-border-radius: 2px 0 0 2px;
+}
+
+.happyfox-tickets-pagination a:last-child {
+	border-radius: 0 2px 2px 0;
+	-moz-border-radius: 0 2px 2px 0;
+	-webkit-border-radius: 0 2px 2px 0;
+}
+
+.happyfox-tickets-pagination a {
+	border-right: 1px solid #CDCDCD; 
+	border-left: 1px solid #CDCDCD;   
+}
+
+.happyfox-tickets-pagination a:first-child {
+	border: none;
+}
+
+.happyfox-tickets-pagination a:last-child {
+	border: none;
+}
+
+.happyfox-tickets-pagination input {
+	border: 1px solid #CDCDCD;
+	float: left;
+	text-align: center;
+	height: 20px;
+	outline: none;
+	vertical-align: middle;
+	width: 100px;
+	padding: 0;
+	margin: 0;
+	font-size: .9em;
+}
