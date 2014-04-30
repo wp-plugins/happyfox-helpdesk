@@ -1,0 +1,351 @@
+/*
+ * HappyFox Helpdesk
+ *
+ * @subpackage Admin Dashboard Stylesheets
+ * @author Balu Vaithinathan
+ * @version 1.0.0
+ *
+ * http://happyfox.com
+ *
+ */
+
+@font-face {
+	font-family: 'OpenSansRegular';
+	font-weight: normal;
+	font-style: normal;
+	src: url('fonts/OpenSans-Regular-webfont.eot');
+	src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('fonts/OpenSans-Regular-webfont.woff') format('woff'),
+		url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+		url('/media/fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
+}
+
+@font-face {
+	font-family: 'SourceSansProRegular';
+	font-weight: normal;
+	font-style: normal;
+	src: url('fonts/SourceSansPro-Regular-webfont.eot');
+	src: url('fonts/SourceSansPro-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('fonts/SourceSansPro-Regular-webfont.woff') format('woff'),
+		url('fonts/SourceSansPro-Regular-webfont.ttf') format('truetype'),
+		url('/media/fonts/SourceSansPro-Regular-webfont.svg#OpenSansRegular') format('svg');
+}
+
+#happyfox-icon {
+	background: url(../images/happyfox-32.png) 0 0 no-repeat;
+	width: 32px;
+	height: 32px;
+}
+
+.happyfox_account, .happyfox_api_key, .happyfox_api_auth {
+	padding: .43em;
+}
+
+/* Convert to Ticket dialog box */
+#happyfox-dialog-inner {
+	background: #FFF;
+}
+
+#happyfox-dialog-body {
+	padding: 1.54em;
+	border-top: 1px solid #E4E4E4;
+	border-bottom: 1px solid #E4E4E4;
+	background: #FFF;
+}
+
+.happyfox-convert-to-ticket {
+	font-family: 'OpenSansRegular', arial, helvetica, sans-serif;
+	font-size: 85%;
+}
+
+#happyfox-dialog-title {
+	font-family: helvetica, arial, sans-serif;
+	font-weight: bold;
+	font-size: 134%;
+	padding: 3px 10px;
+}
+
+.happyfox-convert-to-ticket img.avatar {
+	border: 0;
+	float: left;
+}
+
+.happyfox-comment-box {
+	background: #F5F5F5;
+	border-radius: 5px;
+	font-size: 90%;
+	padding: .2em 1.54em;
+	float: right;
+	display: block;
+	width: 80%;
+	position: relative;
+}
+
+.happyfox-comment-box:after {
+	right:100%;
+	top:25px;
+	border:solid transparent;
+	content: " ";
+	width:0;
+	height:0;
+	position: absolute;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-right: 15px solid #F5F5F5;
+	margin-top: -10px;
+	pointer-events:none;
+}
+
+.happyfox-comment-author {
+	font-size: 120%;
+}
+
+.happyfox-comment-date {
+	font-size: 90%;
+}
+
+#happyfox-dialog-body .happyfox-error {
+	background: #F8B9B9;
+	border-left: 3px solid red;
+	padding: .2em 1.54em;
+	line-height: 1.4em;
+	text-align: justify;
+	width: 85%;
+	margin: 2em auto;
+}
+
+#happyfox-dialog-body .happyfox-error > p {
+	font-size: 90%;
+}
+
+.happyfox-ticket-notice {
+	width: 100%;
+	float:right;
+	color: #242415;
+	margin: 1.43em auto;
+}
+
+.happyfox-error > .happyfox-ticket-notice {
+	float: none;
+}
+
+.happyfox-reply-textarea {
+	width: 100%;
+	height: 150px;
+	line-height: 2em;
+	font-size:120%;
+	display:block;
+	margin: 1em auto;
+	border: 1px solid #E4E4E4;
+	border-radius: 4px;
+}
+
+.happyfox_options {
+	margin: .8em auto;
+}
+
+.happyfox_options label {
+	font-size: 120%;
+}
+
+.happyfox-disclaimer {
+	float: left;
+	width: 74%;
+}
+
+.happyfox-disclaimer p {
+	font-size: 94%;
+	font-weight: bold;
+	font-style: italic;
+	width: 100%;
+	margin:0;
+}
+
+.happyfox-submit {
+	background: #5484C6 !important;
+	font-weight: bold;
+	float: right;
+}
+
+#happyfox-dialog-footer {
+	text-align: right;
+	padding: 0 .43em .54em;
+}
+
+/* HF success dialog */
+.happyfox-success-title {
+	font-size: 304%;
+	color: #5384C7;
+	font-weight: bold;
+	padding: 0 .54em;
+}
+
+#happyfox-success-dialog-inner p {
+	font-size: 1.2em;
+	padding: 0 .43em;
+}
+
+#happyfox-success-dialog .success-close {
+	margin:1.2em 1.43em 0 1.43em;
+}
+
+/* Errors and notifications */
+.happyfox-spinner {
+	font-size: 110%;
+}
+
+.happyfox-comment-box .happyfox-spinner:before {
+	content: " ";
+	width: 16px;
+	height: 16px;
+	background: url(../images/spinner.gif) no-repeat;
+	display: block;
+	margin: 0 10px;
+}
+
+.happyfox-notification-area {
+	font-size: 90%;
+	font-weight: bold;
+	padding: .1em .34em;
+}
+
+.happyfox_field_error {
+	margin-bottom: .34em;
+}
+
+.happyfox_field_error p {
+	color: red;
+	font-size: 90% !important;
+	font-weight: bold;
+}
+
+/* Tickets widget */
+img.happyfox-logo {
+	float:left;
+	margin-right: 10px;
+}
+
+.happyfox-tickets-widget {
+	width: 100%;
+}
+
+.happyfox-filters .happyfox-spinner {
+	width: 16px;
+	height: 16px;
+	background: url(../images/spinner.gif) no-repeat;
+	padding: 0 10px;
+	display: block;
+	float: right;
+}
+
+.happyfox-ticket-id {
+	width: 5%;
+}
+
+.happyfox-ticket-status {
+	width: 12%;
+	min-width: 54px;
+}
+
+.happyfox-ticket-subject {
+	width: 77%;
+}
+
+.happyfox-ticket-id, .happyfox-ticket-subject {
+	font-size: 90%;
+	font-family: 'OpenSansRegular', helvetica, arial, sans-serif;
+}
+
+.happyfox-ticket-status {
+	font-family: 'SourceSansProRegular', helvetica, arial, sans-serif;
+	font-size: 90%;
+	text-align: right;
+}
+
+.happyfox-ticket-status a {
+	padding: 4px;
+	color: #FBFBFB;
+	border-radius: 2px;
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.happyfox-view-ticket a {
+	width: 16px;
+	height: 16px;
+	text-indent: -9999px;
+	background: url(../images/new-window.png) no-repeat;
+	display: block;
+}
+
+.happyfox-tickets-table, #happyfox-ticket-info {
+	border: none;
+	border-top: 1px solid #F5F5F5;
+	border-spacing: 0;
+	border-collapse: collapse;
+	width: 98%;
+	margin: 0 auto;
+}
+
+.happyfox-tickets-table td, #happyfox-ticket-info td {
+	border: none;
+	border-bottom: 1px solid #F5F5F5;
+	padding: .5em;
+}
+
+.happyfox-label {
+	text-align: right;
+	width: 1%;
+	white-space: nowrap;
+}
+
+.happyfox-tickets-table .happyfox-spinner {
+	width: 16px;
+	height: 16px;
+	background: url(../images/spinner.gif) no-repeat;
+	display: block;
+}
+
+p.happyfox-heading, .happyfox-widget-title {
+	font-weight: bold;
+	font-size: 125%;
+	font-family: 'OpenSansRegular', helvetica,arial,sans-serif;
+	padding: .34em;
+}
+
+.happyfox-filters {
+	font-size: 74%;
+	padding: .54em;
+	font-weight: normal;
+}
+
+.filter-type {
+	border-bottom: 1px solid dashed;
+}
+
+.happyfox-inactive, .happyfox-inactive:hover {
+	color: gray;
+}
+
+.happyfox-tickets-widget-footer {
+	margin: 1em auto;
+	padding: .43em;
+}
+
+.powered_by_happyfox {
+	text-indent: -9999px;
+	width: 75px;
+	height: 20px;
+	border: 0;
+	float: right;
+	background: url(../images/happyfox-logo.png) no-repeat;
+}
+
+.clearfix:after {
+	clear: both;
+	height: 1px;
+	display: block;
+	content: " ";
+}
