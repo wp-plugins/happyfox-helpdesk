@@ -394,7 +394,7 @@
 		 * identifier for use in the WP Transient API
 		 */
 		private function _salt($append) {
-			return 'hf-' . md5('happyfox' . $this->api_url . $this->username . $append);
+			return 'hf-' . md5('happyfox' . $this->api_url . $this->api_key . $append);
 		}
 	}
 
