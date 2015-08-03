@@ -1,5 +1,5 @@
 === HappyFox Helpdesk ===
-Contributors: Agent.Logic_, Vijay Balachandran, hfsupport
+Contributors: Agent.Logic_, hfsupport
 Tags: happyfox, support, customer support, helpdesk, help desk, IT, customer, admin, ticket, widget
 Donate link: https://happyfox.com
 Requires at least: 2.9.2
